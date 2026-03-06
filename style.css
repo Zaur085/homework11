@@ -1,0 +1,35 @@
+
+body{
+    background:#1f2a38;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 60px 140px;
+    gap:8px;
+    background:#1f2a38;
+}
+
+.box{
+    border-radius:4px;
+}
+
+.orange{background:#f4a261;}
+.red{background:#ff5e57;}
+.green{background:#1abc9c;}
+
+.right-bottom{
+    display:grid;
+    grid-template-columns: 1fr 80px;
+    grid-template-rows: 1fr;
+    gap:8px;
+}
+
+.small-orange{
+    background:#f4a261;
+}
